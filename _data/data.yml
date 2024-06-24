@@ -95,7 +95,6 @@ experiences:
           Planla og bygde selskapets Veritas Netbackup løsning fra bunn. Systemet bestod av en ADIC Scalar
           i2000 og EMC Virtuell Tape Robot. Etablerte rutiner for off-siting av backup media. Eneansvarlig
           for all backup i selskapet i tre år.
-          oppgraderinger.
       - role:  Data Center Operations Technician
         time: 2005 - 2006
         company: Yahoo!
