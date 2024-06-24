@@ -69,8 +69,8 @@ experiences:
         time: 2022 - nå
         company: Bouvet
         details: |
-          Jobber med Azure skyløsninger i kundeprosjekter. Infrastruktur og konfigurasjon scriptes hovedsaklig ("IaC"). Koden oppbevares i GitHub og rulles ut med GitHub Actions eller Azure DevOps. Fått erfaring med teknologier som Terraform og Bicep for koding av infrastruktur, 
-          samt Git og GitHub som kode repositorie. Bruk av Powershell i noe grad til scripting av logikk. I tillegg fått noe erfaring med bash scripting.
+          Jobber med Azure skyløsninger i kundeprosjekter. Infrastruktur og konfigurasjon scriptes hovedsaklig med infrastruktur som kode - "IaC". Koden lagres i GitHub og rulles ut med GitHub Actions eller Azure DevOps. Fått erfaring med teknologier som Terraform og Bicep for infrastruktur koding, 
+          samt Git og GitHub som kode repositorie. Bruk av Powershell i noe grad til scripting av logikk, i tillegg til litt bash scripting.
       - role: Konsulent, Synergi Life
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
