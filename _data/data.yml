@@ -69,15 +69,15 @@ experiences:
         time: 2022 - nå
         company: Bouvet
         details: |
-          Jobber med Azure skyløsninger i kundeprosjekter. All konfigurasjon scriptes, med kode i GitHub. I tillegg til Azure portalen har jeg fått erfaring med teknologier som Terraform og Bicep for koding av infrastruktur.
-          Git og GitHub som kode repositorie. I tillegg bruker vi litt Powershell for scripting av logikk, og har også noe erfaring med bash scripting.
+          Jobber med Azure skyløsninger i kundeprosjekter. Infrastruktur og konfigurasjon scriptes hovedsaklig, og koden oppbevares i GitHub. Har fått erfaring med teknologier som Terraform og Bicep for koding av infrastruktur, 
+          samt Git og GitHub som kode repositorie. Bruker Powershell i noe grad til scripting av logikk. Og har i tillegg litt erfaring med bash scripting.
       - role: Konsulent, Synergi Life
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
         details: |
           Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltok i implementeringsprosjekter hos nye kunder og utvidelser hos eksisterende. 
           Satt opp fullstendig eller delvis ny infrastruktur, on-prem eller skyløsning, og tilleggskomponenter som MS-SQL server, Internet information Server (IIS). 
-          Deltok i workshop i forkant av prosjekter som teknisk konsulent, og skrev spesifikasjonen etterpå. 
+          Deltok i workshop i forkant av prosjekter som teknisk konsulent, og skrev spesifikasjonen etterpå. Ledet egne prosjekter selv, og det meste av kundekontakten.
       - role: Konsulent, Cegal
         time: 2010 - 2012
         company: Cegal AS
