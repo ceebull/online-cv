@@ -71,8 +71,8 @@ experiences:
         details: |
           Jobber med Azure skyløsninger i kundeprosjekter. Infrastruktur og konfigurasjon scriptes hovedsaklig med infrastruktur som kode ("IaC"). Koden lagres i GitHub og rulles ut med GitHub Actions 
           eller Azure DevOps. Fått erfaring med teknologier som Terraform og Bicep for koding av infrastruktur, samt Git og GitHub som kode repositorium. 
-          Bruker Powershell i noe grad til scripting av logikk, og i tillegg litt Bash scripting. I mitt nåværende prosjekt er jeg et bindeledd mellom infrastrukturgruppen og utviklere, med ansvar for at utviklernes behov blir
-          imøtekommet.
+          Bruker Powershell i noe grad til scripting av logikk, og i tillegg litt Bash scripting. I mitt nåværende prosjekt er jeg et bindeledd mellom infrastrukturgruppen og utviklere, med ansvar for å kommunisere utviklernes 
+          behov til infrastruktur til mitt eget team.
       - role: Konsulent, Synergi Life
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
