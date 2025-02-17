@@ -3,171 +3,171 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Christopher Yngvar Bull
-    tagline: Azure skytjenester og drift
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Christopher Yngvar Bull
+  tagline: Azure skytjenester og drift
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: christopher.y.bull@gmail.com
-    phone:  948 55 939
-    timezone: 
-    citizenship: Norsk
-    website:  #do not add http://
-    linkedin: cbull
-    github: chbul
-    telegram: # add your nickname without '@' sign
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: 
+  # Sidebar links
+  email: christopher.y.bull@gmail.com
+  phone: 948 55 939
+  timezone:
+  citizenship: Norsk
+  website: #do not add http://
+  linkedin: cbull
+  github: chbul
+  telegram: # add your nickname without '@' sign
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf:
 
-    languages:
-      title: Språk
-      info:
-        - idiom: Norsk
-          level: Morsmål
+  languages:
+    title: Språk
+    info:
+      - idiom: Norsk
+        level: Morsmål
 
-        - idiom: Engelsk
-          level: Avansert
+      - idiom: Engelsk
+        level: Avansert
 
-    interests:
-      title: Interesser
-      info:
-        - item: Motorsykler
-          link:
+  interests:
+    title: Interesser
+    info:
+      - item: Motorsykler
+        link:
 
-        - item: Fotografi
-          link: https://cbull.myportfolio.com/
+      - item: Fotografi
+        link: https://cbull.myportfolio.com/
 
-        - item: Teknologi
-          link:
+      - item: Teknologi
+        link:
 
 career-profile:
-    title: Karriereprofil
-    summary: |
-      Startet yrkeslivet i IBM Norge på Mastemyr Oslo, og etter hvert Strandsvingen i Stavanger. Fem år i IBM gav verdifull erfaring med operativsystemer, nettverk og drift. 
-      Etter det dro jeg til USA og jobbet for Fast Search & Transfer, Rackspace Managed Hosting, Yahoo! og comScore. Hovedsakelig innen drift og datasenter arbeid.
-      Etter nesten 11 år i USA jobbet jeg de neste ti årene med programvare for HMS og risikostyring for Det Norske Veritas, Stavanger. 
-      Min nåværende stilling er i Bouvet, Stadionparken Stavanger, med fokus på kodet infrastruktur ("Infrastructure as code - IaC") i Microsoft Azure og GitHub workflows.
+  title: Karriereprofil
+  summary: |
+    Startet yrkeslivet i IBM Norge på Mastemyr Oslo, og etter hvert Strandsvingen i Stavanger. Fem år i IBM gav verdifull erfaring med operativsystemer, nettverk og drift. 
+    Etter det dro jeg til USA og jobbet for Fast Search & Transfer, Rackspace Managed Hosting, Yahoo! og comScore. Hovedsakelig innen drift og datasenter arbeid.
+    Etter nesten 11 år i USA jobbet jeg de neste ti årene med programvare for HMS og risikostyring for Det Norske Veritas, Stavanger. 
+    Min nåværende stilling er i Bouvet, Stadionparken Stavanger, med fokus på kodet infrastruktur ("Infrastructure as code - IaC") i Microsoft Azure og GitHub workflows.
 education:
-    title: Utdannelse
-    info:
-      - degree: Påbegynt toårig grunnstudie for IT bachelor
-        university: NHI Datahøgskolen
-        time: 1994 - 1995
-        details: |
-          Høyskolen ble lagt ned midt i studiet.
+  title: Utdannelse
+  info:
+    - degree: Påbegynt toårig grunnstudie for IT bachelor
+      university: NHI Datahøgskolen
+      time: 1994 - 1995
+      details: |
+        Høyskolen ble lagt ned midt i studiet.
 
 experiences:
-    title: Jobberfaring
-    info:
-      - role: Konsulent, Bouvet
-        time: 2022 - dd
-        company: Bouvet
-        details: |
-          Jobber med Azure skyløsninger i kundeprosjekter. Infrastruktur og konfigurasjon scriptes hovedsaklig med infrastruktur som kode ("IaC"). Koden lagres i GitHub og rulles ut med GitHub Actions 
-          eller Azure DevOps. Fått erfaring med teknologier som Terraform og Bicep for koding av infrastruktur, samt Git og GitHub som kode repositorium. 
-          Bruker Powershell i noe grad til scripting av logikk, og i tillegg litt Bash scripting. I mitt nåværende prosjekt er jeg et bindeledd mellom infrastrukturgruppen og utviklere, med ansvar for å kommunisere utviklernes 
-          behov tilbake til infrastruktur teamet. Fokus på at Azure kostnader skal samsvare med kost/nytte nivå på ressurser i forskjellige miljøer (for eksempel Dev, Test, QA, Prod). Vurdere alle forhold som innebærer kostnad, 
-          for eksempel SKU nivåer, nettverkstrafikk mellom geografiske regioner og lignende.
-      - role: Konsulent, Synergi Life
-        time: 2012 - 2022
-        company: Det Norske Veritas (DNV)
-        details: |
-          Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltok i implementeringsprosjekter hos nye kunder og utvidelser hos eksisterende. 
-          Satt opp fullstendig eller delvis ny infrastruktur, on-prem eller skyløsning, og tilleggskomponenter som MS-SQL server, Internet information Server (IIS). 
-          Deltok i workshop i forkant av prosjekter som teknisk konsulent, og skrev spesifikasjonen etterpå. Hadde prosjektlederrolle i de fleste egne prosjekter, og mesteparten av kundekontakten.
-      - role: Konsulent, Cegal
-        time: 2010 - 2012
-        company: Cegal AS
-        details: |
-          Vedlikehold og feilsøking på kundeservere. Reparasjon av hardware og planlegge installasjon av nytt
-          utstyr. Onsite Deskside Support for Cegals kunder.
-      - role:  Sr. Infrastructure Technician
-        time: 2006 - 2010
-        company: comScore, Inc
-        details: |
-          Datasenter drift i enterprise server miljø på circa tusen servere,
-          hovedsaklig Dell 2650, 2850, 2950, R710 and R510. Datasenter arbeid som racking, installasjon
-          kabling og feilsøking på servere og utstyr. Installasjon av Windows OS, samt hardware og software.
-          Planla og bygde selskapets Veritas Netbackup løsning fra bunn. Systemet bestod av en ADIC Scalar
-          i2000 og EMC Virtuell Tape Robot. Etablerte rutiner for off-siting av backup media. Eneansvarlig
-          for all backup i selskapet i tre år.
-      - role:  Data Center Operations Technician
-        time: 2005 - 2006
-        company: Yahoo!
-        details: |
-          Jobbet i Yahoo!'s datasenter i Reston, Virginia, USA. Ansvarlig for installasjon av servere, feilsøking på
-          hardware, software og operativsystemer. I hovedsak Rackable Systems og Dell PowerEdge servere.
-          Installasjon av nettverksutstyr. Deltok i utbygging av nytt datasenter i Ashburn.
-      - role:  Data Center Operations Technician
-        time: 2004 - 2005
-        company: Rackspace Managed Hosting
-        details: |
-          Datasenter arbeid. Bygging av servere, racking, kabling, feilsøking på hardware, operativsystem og
-          applikasjoner. Alle servere ble bygd og installert fra bunn etter spesifikasjon fra kunden. Hovedsaklig
-          Dell 2650 og 2850.
-      - role:  AV Tekniker
-        time: 2004 - 2005
-        company: Immediate Connections
-        details: |
-          I påvente av arbeids- og oppholdstillatelse i USA hadde en rekke diverse jobber.
-          Oppsett av audiovisuellt utstyr for bruk i konferanser, hovedsakelig i Washington DC
-          Convention Senter. Monitorering og vedlikehold av presentasjonsutstyr som prosjektorer, lerret,
-          mikrofoner, høyttalere og lysanlegg m.m.
-      - role:  Selger
-        time: 2003 - 2004
-        company: Radioshack
-        details: |
-          Radioshack og The Container Store i Washington DC. Salg av forbrukerelektronikk over disk.
-      - role:  Operations Engineer
-        time: 2000 - 2003
-        company: Fast Search & Transfer
-        details: |
-          Jobbet i kundeprosjekt og var med å drifte en spesialisert søkemotor for vitenskapelig søk. Utførte
-          FreeBSD vedlikehold som oppdateringer og monitorering av ytelse. Ansvarlig for drift av delen av
-          applikasjonen som indekserer søkemotoren og innsamling av statistikk data for planlegging av
-          utbygging/skalering av systemet.
-      - role:  Systems Integrator
-        time: 1995 - 2000
-        company: IBM Global Services
-        details: |
-          **Systems Integrator 2 - Saga Hydro (98 - 00)**:
-          Drift og vedlikehold i et VAX/VMS klyngemiljø. Vedlikehold av applikasjoner, brukerkontoer,
-          monitorering og innsamling av statistikkdata i tillegg til rutinemessige driftsoppgaver.
+  title: Jobberfaring
+  info:
+    - role: Konsulent, Bouvet
+      time: 2022 - dd
+      company: Bouvet
+      details: |
+        Jobber med Azure skyløsninger i kundeprosjekter. Infrastruktur og konfigurasjon scriptes hovedsaklig med infrastruktur som kode ("IaC"). Koden lagres i GitHub og rulles ut med GitHub Actions 
+        eller Azure DevOps. Fått erfaring med teknologier som Terraform og Bicep for koding av infrastruktur, samt Git og GitHub som kode repositorium. 
+        Bruker Powershell i noe grad til scripting av logikk, og i tillegg litt Bash scripting. I mitt nåværende prosjekt er jeg et bindeledd mellom infrastrukturgruppen og utviklere, med ansvar for å kommunisere utviklernes 
+        behov tilbake til infrastruktur teamet. Fokus på at Azure kostnader skal samsvare med kost/nytte nivå på ressurser i forskjellige miljøer (for eksempel Dev, Test, QA, Prod). Vurdere alle forhold som innebærer kostnad, 
+        for eksempel SKU nivåer, nettverkstrafikk mellom geografiske regioner og lignende.
+    - role: Konsulent, Synergi Life
+      time: 2012 - 2022
+      company: Det Norske Veritas (DNV)
+      details: |
+        Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltok i implementeringsprosjekter hos nye kunder og utvidelser hos eksisterende. 
+        Satt opp fullstendig eller delvis ny infrastruktur, on-prem eller skyløsning, og tilleggskomponenter som MS-SQL server, Internet information Server (IIS). 
+        Deltok i workshop i forkant av prosjekter som teknisk konsulent, og skrev spesifikasjonen etterpå. Hadde prosjektlederrolle i de fleste egne prosjekter, og mesteparten av kundekontakten.
+    - role: Konsulent, Cegal
+      time: 2010 - 2012
+      company: Cegal AS
+      details: |
+        Vedlikehold og feilsøking på kundeservere. Reparasjon av hardware og planlegge installasjon av nytt
+        utstyr. Onsite Deskside Support for Cegals kunder.
+    - role: Sr. Infrastructure Technician
+      time: 2006 - 2010
+      company: comScore, Inc
+      details: |
+        Datasenter drift i enterprise server miljø på circa tusen servere,
+        hovedsaklig Dell 2650, 2850, 2950, R710 and R510. Datasenter arbeid som racking, installasjon
+        kabling og feilsøking på servere og utstyr. Installasjon av Windows OS, samt hardware og software.
+        Planla og bygde selskapets Veritas Netbackup løsning fra bunn. Systemet bestod av en ADIC Scalar
+        i2000 og EMC Virtuell Tape Robot. Etablerte rutiner for off-siting av backup media. Eneansvarlig
+        for all backup i selskapet i tre år.
+    - role: Data Center Operations Technician
+      time: 2005 - 2006
+      company: Yahoo!
+      details: |
+        Jobbet i Yahoo!'s datasenter i Reston, Virginia, USA. Ansvarlig for installasjon av servere, feilsøking på
+        hardware, software og operativsystemer. I hovedsak Rackable Systems og Dell PowerEdge servere.
+        Installasjon av nettverksutstyr. Deltok i utbygging av nytt datasenter i Ashburn.
+    - role: Data Center Operations Technician
+      time: 2004 - 2005
+      company: Rackspace Managed Hosting
+      details: |
+        Datasenter arbeid. Bygging av servere, racking, kabling, feilsøking på hardware, operativsystem og
+        applikasjoner. Alle servere ble bygd og installert fra bunn etter spesifikasjon fra kunden. Hovedsaklig
+        Dell 2650 og 2850.
+    - role: AV Tekniker
+      time: 2004 - 2005
+      company: Immediate Connections
+      details: |
+        I påvente av arbeids- og oppholdstillatelse i USA hadde jeg en rekke diverse jobber.
+        Oppsett av audiovisuellt utstyr for bruk i konferanser, hovedsakelig i Washington DC
+        Convention Senter. Monitorering og vedlikehold av presentasjonsutstyr som prosjektorer, lerret,
+        mikrofoner, høyttalere og lysanlegg m.m.
+    - role: Selger
+      time: 2003 - 2004
+      company: Radioshack
+      details: |
+        Radioshack og The Container Store i Washington DC. Salg av forbrukerelektronikk over disk.
+    - role: Operations Engineer
+      time: 2000 - 2003
+      company: Fast Search & Transfer
+      details: |
+        Jobbet i kundeprosjekt og var med å drifte en spesialisert søkemotor for vitenskapelig søk. Utførte
+        FreeBSD vedlikehold som oppdateringer og monitorering av ytelse. Ansvarlig for drift av delen av
+        applikasjonen som indekserer søkemotoren og innsamling av statistikk data for planlegging av
+        utbygging/skalering av systemet.
+    - role: Systems Integrator
+      time: 1995 - 2000
+      company: IBM Global Services
+      details: |
+        **Systems Integrator 2 - Saga Hydro (98 - 00)**:
+        Drift og vedlikehold i et VAX/VMS klyngemiljø. Vedlikehold av applikasjoner, brukerkontoer,
+        monitorering og innsamling av statistikkdata i tillegg til rutinemessige driftsoppgaver.
 
-          Systems Integrator 2 - Saga Petroleum (97 - 98):
-          Del av et team som driftet og vedlikeholdt en ADSM backup løsning for Saga Petroleum, Sandvika
-          Oslo. Håndtering av IBM 3494 tape robot. Introduksjon til enterprise, kryss plattform backup
-          løsning. Hjalp å utvikle en disaster recovery plan. Oppgavene inkluderte backup og restore av data for
-          brukere, automatisering av driftsoppgaver med Unix shell scripts og håndtering og off-siting av backup
-          media.
-          
-          Systems Integrator - Unix operations (96 - 97):
-          Del av et team som driftet og vedlikeholdt det interne AIX Unix miljøet på IBM's hovedkvarter på
-          Mastemyr. Drift av TCP/IP tjenester som WWW server, og SMTP (Sendmail). Ble introdusert til
-          Firewall teknologi.
-          Pre-sales (95 - 96):
-          Førsalg på IBM produkter, hovedsakelig OS/2. Teknisk brukerstøtte til IBM's forhandlere og hjelp til
-          IBM's selgere og forhandlere å integrere OS/2 med eksisterende løsninger. Drift av en OS/2 LAN
-          server nettverk og brukerstøtte internt i organisasjonen.
+        Systems Integrator 2 - Saga Petroleum (97 - 98):
+        Del av et team som driftet og vedlikeholdt en ADSM backup løsning for Saga Petroleum, Sandvika
+        Oslo. Håndtering av IBM 3494 tape robot. Introduksjon til enterprise, kryss plattform backup
+        løsning. Hjalp å utvikle en disaster recovery plan. Oppgavene inkluderte backup og restore av data for
+        brukere, automatisering av driftsoppgaver med Unix shell scripts og håndtering og off-siting av backup
+        media.
+
+        Systems Integrator - Unix operations (96 - 97):
+        Del av et team som driftet og vedlikeholdt det interne AIX Unix miljøet på IBM's hovedkvarter på
+        Mastemyr. Drift av TCP/IP tjenester som WWW server, og SMTP (Sendmail). Ble introdusert til
+        Firewall teknologi.
+        Pre-sales (95 - 96):
+        Førsalg på IBM produkter, hovedsakelig OS/2. Teknisk brukerstøtte til IBM's forhandlere og hjelp til
+        IBM's selgere og forhandlere å integrere OS/2 med eksisterende løsninger. Drift av en OS/2 LAN
+        server nettverk og brukerstøtte internt i organisasjonen.
 
 certifications:
-      title: Sertifiseringer
-      list: 
-        - name: AIX 4.1 System Administrator
-          start: 1998
-          end: 1998
-          organization: IBM
-          credentialid: EM8000333
-          credentialurl: https://www.redbooks.ibm.com/redbooks/pdfs/sg247738.pdf
-          credentialname: IBM Certified Specialist
-        # details: |
-      #   # Details about cert. Lorem ipsum dolor sit amet, consectetur
+  title: Sertifiseringer
+  list:
+    - name: AIX 4.1 System Administrator
+      start: 1998
+      end: 1998
+      organization: IBM
+      credentialid: EM8000333
+      credentialurl: https://www.redbooks.ibm.com/redbooks/pdfs/sg247738.pdf
+      credentialname: IBM Certified Specialist
+    # details: |
+  #   # Details about cert. Lorem ipsum dolor sit amet, consectetur
 
 # projects:
 #     title: Projects
@@ -260,4 +260,4 @@ certifications:
 #         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
